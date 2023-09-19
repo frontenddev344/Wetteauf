@@ -1,0 +1,521 @@
+/*global start*/
+body {
+  font-family: "Barlow";
+}
+
+li {
+  list-style: none;
+}
+
+a,
+button {
+  font-family: "Barlow", sans-serif;
+}
+
+.casino-btn a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 17px;
+    text-align: justify;
+  }
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 40px;
+    line-height: 39px;
+  }
+}
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 27px;
+    line-height: 32px;
+  }
+}
+
+h3 {
+  font-size: 30px;
+  color: #E8AA9B;
+  font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  h3 {
+    font-size: 22px;
+  }
+}
+
+h4 {
+  font-size: 25px;
+  color: #E8AA9B;
+  line-height: 35px;
+}
+@media screen and (max-width: 576px) {
+  h4 {
+    font-size: 19px !important;
+  }
+}
+
+h5 {
+  font-size: 23px;
+  line-height: 30px;
+  color: #1A385A;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*global end*/
+/*header start*/
+header.site-header {
+  background: #1A385A;
+  font-size: 15px;
+  padding: 14px 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  transition: 0.3s;
+}
+
+header.site-header.sticky {
+  background: #1A385A;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding: 10px 0;
+  position: fixed;
+}
+
+.site-header .site-nav ul li a.active {
+  color: #E8AA9B;
+}
+
+.site-logo img {
+  width: 100%;
+  max-width: 160px;
+}
+
+.site-nav a {
+  padding: 12px 24px !important;
+  display: inline-block;
+}
+.site-nav a:hover {
+  color: #E8AA9B;
+}
+
+.site-header {
+  padding: 10px 0;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.closed-menu {
+  display: none;
+}
+
+.menu-toggle {
+  display: none !important;
+}
+
+/*header end*/
+/*banner-css-start*/
+.home__banner {
+  position: relative;
+  height: 450px;
+  background-image: url(../images/homebanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.home__banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home__content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  text-align: center;
+  z-index: 2;
+}
+.home__content p {
+  color: #fff;
+}
+.home__title {
+  padding: 50px 0;
+}
+
+/*banner-css-end*/
+/*awaits-css-end*/
+section.awaits {
+  padding: 50px 0;
+}
+
+section.choose {
+  background: #fff;
+}
+
+.choose__body {
+  background: #fff;
+  padding: 30px 25px;
+  box-shadow: 0 0px 25px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  border: 5px solid rgba(0, 0, 0, 0.07);
+  margin-bottom: 30px;
+  transition: all 0.5s ease 0s;
+  height: 100%;
+}
+.choose__body h3 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+.choose__body p {
+  color: #1A385A;
+  line-height: 22px;
+  font-size: 16px;
+}
+
+h3.choose__title {
+  text-align: center;
+  padding-bottom: 21px;
+}
+
+.choose__card {
+  height: 100%;
+}
+.choose__card img {
+  max-width: 70px;
+  transition: 0.3s;
+}
+.choose__card img:hover {
+  transform: translateY(-10px);
+}
+
+.choose__main {
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+/*awaits-css-end*/
+/*discover-css-end*/
+.row.discover {
+  padding-top: 50px;
+}
+
+.discover__content {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section.swiss {
+  padding: 50px 0;
+}
+
+/*discover-css-end*/
+/*footer-css-start*/
+.footer {
+  background: #1A385A;
+  padding: 50px 0;
+}
+.footer__logo img {
+  max-width: 160px;
+}
+.footer__about p {
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+}
+.footer__links li {
+  color: #fff;
+}
+.footer__links li a:hover {
+  color: #E8AA9B;
+}
+.footer__mail a {
+  color: #fff;
+  font-size: 25px;
+}
+.footer__mail a:hover {
+  color: #E8AA9B;
+}
+.footer__mail p {
+  color: #fff;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+/*footer-css-end*/
+/*casino-hotels-css-start*/
+.col-lg-6.col-md-6.col-sm-12.m-0.p-0.down {
+  display: -webkit-flex;
+}
+
+.casino__banner {
+  position: relative;
+  height: 350px;
+  background-image: url(../images/casinobanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.casino__banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.casino__content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  text-align: center;
+  z-index: 2;
+}
+.casino__content p {
+  color: #fff;
+}
+.casino__title {
+  padding: 50px 0;
+}
+.casino-btn a {
+  background-color: #1A385A;
+}
+.casino-btn a:hover {
+  background-color: #E8AA9B;
+  border-bottom: 4px solid #1A385A;
+  border-top: 4px solid #1A385A;
+}
+.casinocard__picture img {
+  height: 350px;
+  object-fit: cover;
+}
+
+section.casino__text {
+  padding: 50px 0;
+}
+
+.casinobody__cards.righttext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-left: 25px;
+  padding: 40px 0;
+}
+
+.casinobody__cards.lefttext {
+  padding-right: 25px;
+  margin: 40px 0;
+}
+
+/*casino-hotels-css-end*/
+/*adventure-css-start*/
+.casino__banner.adventure {
+  position: relative;
+  height: 350px;
+  background-image: url(../images/adventurebanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.casino__banner.adventure::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*adventure-css-end*/
+/*entertainment-css-start*/
+.casino__banner.entertainment {
+  position: relative;
+  height: 350px;
+  background-image: url(../images/entertainmentbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.casino__banner.entertainment::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.entertainment__picture {
+  overflow: hidden;
+  transition: 0.3s;
+}
+.entertainment__picture img {
+  height: 350px;
+}
+.entertainment__picture img:hover {
+  transform: scale(1.06);
+  transition: 0.3s;
+}
+.entertainmentcard__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.col-lg-6.col-md-6.col-sm-12.down {
+  display: -webkit-flex;
+}
+
+/*entertainment-css-end*/
+/*about-css-start*/
+.casino__banner.about {
+  position: relative;
+  height: 350px;
+  background-image: url(../images/aboutbanner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.casino__banner.about::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*about-css-end*/
+/*contact-css-start*/
+section.contact__text {
+  padding: 50px 0;
+}
+
+.casino__banner.contact {
+  position: relative;
+  height: 350px;
+  background-image: url(../images/contactbanner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.casino__banner.contact::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contact__information li {
+  list-style: disc;
+}
+.contact__information li::marker {
+  color: #E8AA9B;
+}
+.contact__information a {
+  color: #000;
+}
+.contact__sub p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 16px;
+}
+.contact__content p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 16px;
+}
+.contact__content li {
+  list-style: disc;
+}
+.contact__content li::marker {
+  color: #E8AA9B;
+}
+
+/*contact-css-end*/
+
+
+/*# sourceMappingURL=style.css.map */

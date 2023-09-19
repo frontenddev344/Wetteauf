@@ -1,0 +1,78 @@
+@import './variables';
+@import './mixins';
+
+body {
+    font-family: 'Barlow';
+}
+
+li {
+    list-style: none;
+}
+
+a,
+button {
+    font-family: 'Barlow', sans-serif;
+}
+
+.casino-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: $clr-white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+
+    @include mq(sm) {
+        font-size: 17px;
+        text-align: justify;
+    }
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    color: $clr-white;
+
+    @include mq(xl) {
+        font-size: 40px;
+        line-height: 39px;
+    }
+
+    @include mq(sm) {
+        font-size: 27px;
+        line-height: 32px;
+    }
+
+}
+
+h3 {
+    font-size: 30px;
+    color: $clr-peach;
+    font-weight: 500;
+
+    @include mq(sm) {
+        font-size: 22px;
+    }
+}
+
+h4 {
+    font-size: 25px;
+    color: $clr-peach;
+    line-height: 35px;
+
+    @include mq(sm) {
+        font-size: 19px !important;
+    }
+}
+
+h5 {
+    font-size: 23px;
+    line-height: 30px;
+    color: $clr-darkblue;
+}
