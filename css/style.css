@@ -218,6 +218,13 @@ header.site-header.sticky {
 .home__title {
   padding: 50px 0;
 }
+.home__title p {
+  text-align: center;
+}
+
+.home__texts.home {
+  text-align: center;
+}
 
 /*banner-css-end*/
 /*awaits-css-end*/
@@ -230,6 +237,7 @@ section.choose {
 }
 
 .choose__body {
+  text-align: center;
   background: #fff;
   padding: 30px 25px;
   box-shadow: 0 0px 25px rgba(0, 0, 0, 0.07);
