@@ -58,6 +58,9 @@
             }
         }
     }
+    .resturent-button a{
+        width: 120px;
+    }
 }
 
 
@@ -203,6 +206,15 @@
             opacity: 0.7;
         }
     }
+    .resturent-button {
+        max-width: 100% !important;
+    }
+    .restaurent-text {
+        max-width: 100% !important;
+    }
+    .restaurent-img{
+        max-width: 100% !important;
+    }
 }
 
 @media screen and (max-width:820px) {
@@ -244,6 +256,12 @@
             }
         }
     }
+    .resturent-button a {
+        width: 100px;
+        height: 48px;
+        line-height: 50px;
+        font-size: 16px;
+    }
 }
 
 @include mq(md) {
@@ -251,6 +269,9 @@
         &__content {
             width: 75%;
         }
+    }
+    .main-img-text-content {
+        padding: 34px;
     }
 }
 

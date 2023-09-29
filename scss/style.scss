@@ -644,6 +644,58 @@ h4.terms-title {
 
 /*privacy-css-end*/
 
+/*betting-section-start*/
+.main-img-text-content {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 2px solid $clr-darkblue;
+    padding: 23px;
+    border-radius: 4px;
+}
+
+.restaurant-img {
+    width: 100%;
+    max-width: 30%;
+}
+
+.restaurent-text {
+    max-width: 58%;
+    margin-left: 51px;
+}
+
+.restaurent-text p {
+    font-size: 17px;
+    color: $clr-darkblue;
+}
+
+.resturent-button {
+    width: 100%;
+    max-width: 12%;
+    margin-left: 20px;
+}
+
+.resturent-button a {
+    display: block;
+    width: 137px;
+    background: $clr-darkblue;
+    text-align: center;
+    color: $clr-white;
+    height: 55px;
+    line-height: 55px;
+    font-size: 20px;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: $clr-peach;
+    }
+}
+
+.row.restaurant {
+    padding-top: 15px;
+}
+
+/*betting-section-end*/
 
 
 /*# sourceMappingURL=style.css.map */

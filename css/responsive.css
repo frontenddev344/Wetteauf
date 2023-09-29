@@ -118,6 +118,9 @@ h5 {
   .casinocard__picture img {
     height: 100%;
   }
+  .resturent-button a {
+    width: 120px;
+  }
 }
 @media screen and (max-width: 991px) {
   /*header start*/
@@ -238,6 +241,15 @@ h5 {
     font-weight: 600;
     opacity: 0.7;
   }
+  .resturent-button {
+    max-width: 100% !important;
+  }
+  .restaurent-text {
+    max-width: 100% !important;
+  }
+  .restaurent-img {
+    max-width: 100% !important;
+  }
 }
 @media screen and (max-width: 820px) {
   h4 {
@@ -265,10 +277,19 @@ h5 {
   .contact__content p {
     text-align: justify;
   }
+  .resturent-button a {
+    width: 100px;
+    height: 48px;
+    line-height: 50px;
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 768px) {
   .casino__content {
     width: 75%;
+  }
+  .main-img-text-content {
+    padding: 34px;
   }
 }
 @media screen and (max-width: 767px) {
