@@ -228,6 +228,10 @@ header.site-header.sticky {
   text-align: center;
 }
 
+.home__content p {
+  text-align: center;
+}
+
 /*banner-css-end*/
 /*awaits-css-end*/
 section.awaits {
