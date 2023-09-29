@@ -160,7 +160,7 @@ header.site-header.sticky {
     }
 }
 
-.home__content p{
+.home__content p {
     text-align: center;
 }
 
@@ -547,50 +547,58 @@ section.contact__text {
 
     }
 }
-.about_us_content{
+
+.about_us_content {
     background: $clr-darkblue;
     padding: 2rem;
     margin: 30px 0;
 }
+
 .form-group {
     margin-bottom: 2rem;
 }
+
 .input-control {
     display: block;
     width: 100%;
     height: 4rem;
-    border: 1px solid #fff;
+    border: 1px solid $clr-white;
     padding: 2rem 2rem;
     background: transparent;
-    color: #fff;
+    color: $clr-white;
 }
+
 textarea.input-control {
     resize: none;
     height: auto;
 }
+
 .form-group .submit-btn {
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid $clr-white;
     transition: all 0.2s linear;
     display: inline-block;
     padding: 0.8rem 4rem;
-    color: #fff;
+    color: $clr-white;
     text-transform: capitalize;
-    &:hover{
+
+    &:hover {
         background-color: $clr-peach;
     }
 }
+
 .form-group label {
     display: inline-block;
     padding-bottom: 5px;
-    color: #fff;
+    color: $clr-white;
     transition: all 0.2s linear;
     text-transform: capitalize;
 }
+
 /*contact-css-end*/
 
 /*privacy-css-start*/
-.casino__banner.privacy  {
+.casino__banner.privacy {
     position: relative;
     height: 350px;
     background-image: url(../images/privacybanner.jpg);
@@ -611,7 +619,7 @@ textarea.input-control {
 /*privacy-css-end*/
 
 /*terms-condition-css-start*/
-.casino__banner.termsbanner  {
+.casino__banner.termsbanner {
     position: relative;
     height: 350px;
     background-image: url(../images/termsbanner.png);
@@ -628,10 +636,12 @@ textarea.input-control {
         background-color: rgba(0, 0, 0, 0.3);
     }
 }
+
 h4.terms-title {
     font-size: 19px;
     color: $clr-peach;
 }
+
 /*privacy-css-end*/
 
 
