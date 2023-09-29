@@ -387,6 +387,10 @@ section.casino__text {
   margin: 40px 0;
 }
 
+.casinotext.about {
+  text-align: center;
+}
+
 /*casino-hotels-css-end*/
 /*adventure-css-start*/
 .casino__banner.adventure {
