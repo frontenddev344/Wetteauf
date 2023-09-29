@@ -320,6 +320,28 @@ section.swiss {
   font-size: 18px;
   line-height: 34px;
 }
+.footer .scrl-icons {
+  margin-top: 20px;
+}
+.footer .scrl-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #E8AA9B;
+  color: #fff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background: #E8AA9B;
+  font-size: 22px;
+  margin: 0 8px;
+  text-decoration: none;
+}
+.footer .scrl-icons a:hover {
+  color: #E8AA9B;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
 
 /*footer-css-end*/
 /*casino-hotels-css-start*/
@@ -330,7 +352,7 @@ section.swiss {
 .casino__banner {
   position: relative;
   height: 350px;
-  background-image: url(../images/casinobanner.png);
+  background-image: url(../images/casinobanner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

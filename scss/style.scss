@@ -280,6 +280,28 @@ section.swiss {
             line-height: 34px;
         }
     }
+    .scrl-icons {
+        margin-top: 20px;
+    }
+    .scrl-icons a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $clr-peach;
+        color: $clr-white;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        background: $clr-peach;
+        font-size: 22px;
+        margin: 0 8px;
+        text-decoration: none;
+        &:hover{
+            color: $clr-peach;
+            background-color: $clr-white;
+            border: 1px solid $clr-white;  
+        }
+    }
 }
 
 /*footer-css-end*/
@@ -292,7 +314,7 @@ section.swiss {
 .casino__banner {
     position: relative;
     height: 350px;
-    background-image: url(../images/casinobanner.png);
+    background-image: url(../images/casinobanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
