@@ -58,7 +58,8 @@
             }
         }
     }
-    .resturent-button a{
+
+    .resturent-button a {
         width: 120px;
     }
 }
@@ -206,24 +207,29 @@
             opacity: 0.7;
         }
     }
+
     .resturent-button {
         max-width: 100% !important;
         width: 100%;
         margin-left: 0;
     }
+
     .restaurent-text {
         max-width: 100% !important;
         width: 100%;
         margin-left: 0;
     }
-    .restaurant-img{
+
+    .restaurant-img {
         max-width: 100% !important;
         width: 100%;
     }
-    .main-img-text-content{
+
+    .main-img-text-content {
         display: flex;
         flex-direction: column;
     }
+
     .restaurent-text {
         padding: 30px 0;
     }
@@ -268,6 +274,7 @@
             }
         }
     }
+
     .resturent-button a {
         width: 100px;
         height: 48px;
@@ -282,6 +289,7 @@
             width: 75%;
         }
     }
+
     .main-img-text-content {
         padding: 34px;
     }
@@ -305,6 +313,7 @@
     a.casino-btn.enter {
         margin-bottom: 25px;
     }
+
     .footer .scrl-icons {
         margin-bottom: 20px;
     }
@@ -376,12 +385,23 @@
         line-height: 22px;
 
 
-    .casino__banner.entertainment .casino__content {
-        width: 84%;
+        .casino__banner.entertainment .casino__content {
+            width: 84%;
+        }
+    }
+
+    .restaurent-text {
+        h4 {
+            font-size: 16px !important;
+            line-height: 20px;
+        }
+
+        h5 {
+            font-size: 17px;
+            line-height: 20px;
+        }
     }
 }
-}
-
 
 
 /*# sourceMappingURL=responsive.css.map */
