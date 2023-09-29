@@ -17,6 +17,10 @@
     .site-nav li {
         font-size: 16px;
     }
+    .casino__content.text {
+        width: 65%;
+        margin: 0 auto;
+    }
 }
 
 @include mq(xl) {

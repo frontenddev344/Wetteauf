@@ -89,6 +89,10 @@ h5 {
   .site-nav li {
     font-size: 16px;
   }
+  .casino__content.text {
+    width: 65%;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 1024px) {
   .site-nav a {
