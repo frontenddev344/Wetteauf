@@ -280,9 +280,11 @@ section.swiss {
             line-height: 34px;
         }
     }
+
     .scrl-icons {
         margin-top: 20px;
     }
+
     .scrl-icons a {
         display: inline-flex;
         align-items: center;
@@ -296,10 +298,11 @@ section.swiss {
         font-size: 22px;
         margin: 0 8px;
         text-decoration: none;
-        &:hover{
+
+        &:hover {
             color: $clr-peach;
             background-color: $clr-white;
-            border: 1px solid $clr-white;  
+            border: 1px solid $clr-white;
         }
     }
 }
