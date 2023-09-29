@@ -556,6 +556,48 @@ section.contact__text {
 
 /*contact-css-end*/
 
+/*privacy-css-start*/
+.casino__banner.privacy  {
+    position: relative;
+    height: 350px;
+    background-image: url(../images/privacybanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-top: 50px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+/*privacy-css-end*/
+
+/*terms-condition-css-start*/
+.casino__banner.termsbanner  {
+    position: relative;
+    height: 350px;
+    background-image: url(../images/termsbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-top: 50px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+/*privacy-css-end*/
+
 
 
 /*# sourceMappingURL=style.css.map */
