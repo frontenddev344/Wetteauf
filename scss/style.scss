@@ -157,15 +157,9 @@ header.site-header.sticky {
     &__title {
         padding: 50px 0;
 
-        p {
-            text-align: center;
-        }
     }
 }
 
-.home__texts.home {
-    text-align: center;
-}
 .home__content p{
     text-align: center;
 }
@@ -553,7 +547,46 @@ section.contact__text {
 
     }
 }
-
+.about_us_content{
+    background: $clr-darkblue;
+    padding: 2rem;
+    margin: 30px 0;
+}
+.form-group {
+    margin-bottom: 2rem;
+}
+.input-control {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    border: 1px solid #fff;
+    padding: 2rem 2rem;
+    background: transparent;
+    color: #fff;
+}
+textarea.input-control {
+    resize: none;
+    height: auto;
+}
+.form-group .submit-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    transition: all 0.2s linear;
+    display: inline-block;
+    padding: 0.8rem 4rem;
+    color: #fff;
+    text-transform: capitalize;
+    &:hover{
+        background-color: $clr-peach;
+    }
+}
+.form-group label {
+    display: inline-block;
+    padding-bottom: 5px;
+    color: #fff;
+    transition: all 0.2s linear;
+    text-transform: capitalize;
+}
 /*contact-css-end*/
 
 /*privacy-css-start*/
