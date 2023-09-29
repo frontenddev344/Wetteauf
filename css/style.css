@@ -156,6 +156,8 @@ header.site-header.sticky {
 .site-nav a {
   padding: 12px 24px !important;
   display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
 }
 .site-nav a:hover {
   color: #E8AA9B;

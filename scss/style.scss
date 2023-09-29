@@ -83,6 +83,8 @@ header.site-header.sticky {
 .site-nav a {
     padding: 12px 24px !important;
     display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
 
     &:hover {
         color: $clr-peach;
@@ -154,11 +156,13 @@ header.site-header.sticky {
 
     &__title {
         padding: 50px 0;
-        p{
+
+        p {
             text-align: center;
         }
     }
 }
+
 .home__texts.home {
     text-align: center;
 }
@@ -368,10 +372,12 @@ section.casino__text {
     padding-right: 25px;
     margin: 40px 0;
 }
+
 .casinotext.about {
     text-align: center;
- padding: 80px 0;
+    padding: 80px 0;
 }
+
 /*casino-hotels-css-end*/
 
 /*adventure-css-start*/
@@ -469,6 +475,7 @@ section.casino__text {
 section.contact__text {
     padding: 50px 0;
 }
+
 .casino__banner.contact {
     position: relative;
     height: 350px;
@@ -509,19 +516,22 @@ section.contact__text {
             margin-top: 16px;
         }
     }
-    &__content{
-        p{
-    font-size: 18px;
-    line-height: 25px;
-    margin-top: 16px;
+
+    &__content {
+        p {
+            font-size: 18px;
+            line-height: 25px;
+            margin-top: 16px;
         }
-        li{
+
+        li {
             list-style: disc;
+
             &::marker {
                 color: $clr-peach;
             }
         }
-        
+
     }
 }
 
