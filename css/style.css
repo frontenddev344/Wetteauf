@@ -267,9 +267,6 @@ h3.choose__title {
 .choose__card {
   height: 100%;
 }
-.choose__card img {
-  max-width: 70px;
-}
 
 .choose__main {
   height: 100%;
