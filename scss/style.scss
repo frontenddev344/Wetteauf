@@ -725,6 +725,12 @@ h4.terms-title {
         transform: translateY(0%);
         transition-delay: 1000ms;
     }
+    a.btn.btn-primary.accept-cookies {
+        background: pink;
+        padding: 6px 22px;
+        font-size: 20px;
+        border: 1px solid pink;
+    }
     
     /*cookie end*/
 
