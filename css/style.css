@@ -789,6 +789,27 @@ a.btn.btn-primary.accept-cookies {
 }
 
 /*End Faq css*/
+/*start discover css*/
+.lowcard__content.index {
+  padding: 20px 0 30px 0;
+}
+
+.lowcard__content h3 {
+  color: #E8AA9B;
+  font-size: 22px;
+  font-family: "Barlow";
+  font-weight: 500;
+}
+
+.lowcard__content p {
+  color: #000;
+  font-size: 17px;
+  line-height: 23px;
+  font-family: "Barlow";
+  text-align: justify;
+}
+
+/*End discover css*/
 
 
 /*# sourceMappingURL=style.css.map */
