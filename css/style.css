@@ -346,6 +346,10 @@ section.swiss {
   display: -webkit-flex;
 }
 
+section.casino__text1 {
+  padding-top: 50px;
+}
+
 .casino__banner {
   position: relative;
   height: 350px;
@@ -687,33 +691,101 @@ h4.terms-title {
 }
 
 /*betting-section-end*/
-
-	/*cookie start*/
-  .cookie-alert {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    margin: 0 !important;
-    z-index: 999;
-    opacity: 0;
-    transform: translateY(100%);
-    transition: all 500ms ease-out;
-    left: 0;
+/*cookie start*/
+.cookie-alert {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 !important;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 500ms ease-out;
+  left: 0;
 }
 
 .cookie-alert.show {
-    opacity: 1;
-    transform: translateY(0%);
-    transition-delay: 1000ms;
+  opacity: 1;
+  transform: translateY(0%);
+  transition-delay: 1000ms;
 }
+
 a.btn.btn-primary.accept-cookies {
-    background: pink;
-    padding: 6px 22px;
-    font-size: 20px;
-    border: 1px solid pink;
+  background: #E8AA9B;
+  padding: 6px 22px;
+  font-size: 20px;
+  border: 1px solid #E8AA9B;
 }
 
 /*cookie end*/
+/*Start Faq css*/
+.faq-page {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.casino-text.hoteli {
+  padding: 0 0 50px 0;
+}
+
+.faq-item {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-question {
+  font-size: 18px;
+  font-family: "Barlow";
+  line-height: 25px;
+  color: #E8AA9B;
+  font-weight: 500;
+}
+
+.faq-section {
+  padding-bottom: 50px;
+}
+
+.faq-answer {
+  font-size: 16px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.faq-answer p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.faq-answer.active {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.icon-container i {
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-container i.active {
+  transform: rotate(90deg);
+}
+
+/*End Faq css*/
+
 
 /*# sourceMappingURL=style.css.map */
