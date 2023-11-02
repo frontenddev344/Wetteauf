@@ -413,9 +413,8 @@ section.casino__text {
   margin: 40px 0;
 }
 
-.casinotext.about {
-  text-align: center;
-  padding: 80px 0;
+section.casino__text.about {
+  padding-bottom: 0;
 }
 
 /*casino-hotels-css-end*/
@@ -501,6 +500,10 @@ section.casino__text {
 /*contact-css-start*/
 section.contact__text {
   padding: 50px 0;
+}
+
+section.contact__text.space {
+  padding: 20px 0 50px 0;
 }
 
 .casino__banner.contact {
