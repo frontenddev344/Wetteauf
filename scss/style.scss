@@ -807,6 +807,23 @@ a.btn.btn-primary.accept-cookies {
 /*End Faq css*/
 
 /*start discover css*/
+.casino__banner.discover {
+    position: relative;
+    height: 350px;
+    background-image: url(../images/discoverbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-top: 50px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
 .lowcard__content.index {
     padding: 20px 0 30px 0;
 }
@@ -822,6 +839,9 @@ a.btn.btn-primary.accept-cookies {
     line-height: 23px;
     font-family: "Barlow";
     text-align: justify;
+}
+section.indexcards {
+    padding: 50px 0 0 0;
 }
 /*End discover css*/
 
